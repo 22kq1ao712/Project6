@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Delicious Cake Bakery</title>
+    <video autoplay muted loop id="myVideo">
+      <source src="4114797-sd_640_360_25fps.mp4" type="video/mp4">
+    </video>
+  </head>
+  <style>
+  .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
+<div class="row">
+  <div class="column">
+    <img src="cake1.jpg" alt="Snow" style="width:350" height="200">
+    <p>Chocalate</p>
+  </div>
+  <div class="column">
+    <img src="cake2.jpg" alt="Forest" style="width:350" height="200">
+    <p> black chocalate</p>
+    
+  </div>
+  <div class="column">
+    <img src="cake3.jpg" alt="Mountains" style="width:350" height="200">
+    <p>strawberry</p>
+  </div>
+</div>
+</html>
